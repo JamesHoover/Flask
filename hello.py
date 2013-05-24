@@ -10,6 +10,11 @@ def index():
 def helloName(name=None):
     return render_template('hello.html', name=name)
 
+@app.route('/alert/')
+@app.route('/alert/<name>')
+def show_alert(name=None):
+    return render_template('js_alert_test.html', name=name)
+
 @app.route('/user/<username>')
 def show_user_profile(username):
     # show the user profile for that user
@@ -24,7 +29,7 @@ def show_post(post_id):
 def projects():
     return 'The projects page'
 
-@app.route('/about')
+@app.route('/about/')
 def about():
     return 'The about page'
 

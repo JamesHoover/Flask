@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% if name %}
+<script>
+  alert("Hello, {{ name }}!");
+</script>
+<h1>Hello, {{ name }}!</h1>
+{% else %}
+<script>
+  alert("Hello, World!");
+</script>
+<h1>Hello, World!</h1>
+{% endif %}

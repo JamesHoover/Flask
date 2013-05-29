@@ -15,6 +15,10 @@ def helloName(name=None):
 def show_alert(name=None):
     return render_template('js_alert_test.html', name=name)
 
+@app.route('/button')
+def button():
+    return render_template('button.html')
+
 @app.route('/user/<username>')
 def show_user_profile(username):
     # show the user profile for that user

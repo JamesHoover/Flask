@@ -1,0 +1,61 @@
+body {
+  background-color: #BCBDAC; }
+
+/* Color Themes - Variables */
+/* Common Colors - Variables */
+/* Mixins */
+/* Button Global */
+.btn {
+  display: inline-block;
+  margin: 1rem;
+  padding: .938em 1.875em;
+  border: .094em solid;
+  border-radius: .625em;
+  box-shadow: 0 0.375em 0.313em -0.313em rgba(0, 0, 0, 0.8), inset 0 0.063em rgba(255, 255, 255, 0.4), inset 0 -0.188em rgba(0, 0, 0, 0.15);
+  color: #FFF;
+  font: bold 1.8rem sans-serif;
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 0 0.063em rgba(0, 0, 0, 0.3);
+  cursor: pointer; }
+
+/* Themes */
+.purple {
+  border-color: #796f17;
+  background-color: #cfbe27; }
+  .purple:hover {
+    background-color: #b5a622;
+    box-shadow: 0 0.125em rgba(255, 255, 255, 0.4), inset 0 0.063em rgba(255, 255, 255, 0.4), inset 0 -0.188em #d7c529; }
+  .purple:active {
+    box-shadow: 0 0.063em rgba(255, 255, 255, 0.4), inset 0 0 1.094em #232007, inset 0 0.063em #796f17, inset 0 -0.188em #796f17; }
+
+.blue {
+  border-color: #b5440c;
+  background-color: #f27435; }
+  .blue:hover {
+    background-color: #f06018;
+    box-shadow: 0 0.125em rgba(255, 255, 255, 0.4), inset 0 0.063em rgba(255, 255, 255, 0.4), inset 0 -0.188em #f37b3f; }
+  .blue:active {
+    box-shadow: 0 0.063em rgba(255, 255, 255, 0.4), inset 0 0 1.094em #552006, inset 0 0.063em #b5440c, inset 0 -0.188em #b5440c; }
+
+.green {
+  border-color: #a30b47;
+  background-color: #f02475; }
+  .green:hover {
+    background-color: #e61065;
+    box-shadow: 0 0.125em rgba(255, 255, 255, 0.4), inset 0 0.063em rgba(255, 255, 255, 0.4), inset 0 -0.188em #f12e7b; }
+  .green:active {
+    box-shadow: 0 0.063em rgba(255, 255, 255, 0.4), inset 0 0 1.094em #43051e, inset 0 0.063em #a30b47, inset 0 -0.188em #a30b47; }
+
+.orange {
+  border-color: #010101;
+  background-color: #3b2d38; }
+  .orange:hover {
+    background-color: #2a2028;
+    box-shadow: 0 0.125em rgba(255, 255, 255, 0.4), inset 0 0.063em rgba(255, 255, 255, 0.4), inset 0 -0.188em #41313d; }
+  .orange:active {
+    box-shadow: 0 0.063em rgba(255, 255, 255, 0.4), inset 0 0 1.094em black, inset 0 0.063em #010101, inset 0 -0.188em #010101; }

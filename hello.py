@@ -29,13 +29,25 @@ def show_post(post_id):
     # show the post with the given id, the id is an integer
     return 'Post %d' % post_id
 
-@app.route('/projects/')
+@app.route('/projects')
 def projects():
     return 'The projects page'
 
-@app.route('/about/')
+@app.route('/about')
 def about():
     return 'The about page'
+
+@app.route('/button/2')
+def button2():
+    return render_template('button2.html')
+
+@app.route('/button/3')
+def button3():
+    return render_template('button3.html')
+
+@app.route('/button/4')
+def button4():
+    return render_template('button4.html')
 
 @app.errorhandler(404)
 def page_not_found(error):
